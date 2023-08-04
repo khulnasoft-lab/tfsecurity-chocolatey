@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>
+			tfsecurity
+		</id>
+		<version>
+			{PLACEHOLDER_VERSION}
+		</version>
+		<packageSourceUrl>
+			https://github.com/khulnasoft-labs/tfsecurity-chocolatey
+		</packageSourceUrl>
+		<owners>
+			khulnasoft-labs
+		</owners>
+		<title>
+			tfsecurity - static security checks for Terraform
+		</title>
+		<authors>
+			liamg,owen79
+		</authors>
+		<projectUrl>
+			https://github.com/khulnasoft-labs/tfsecurity
+		</projectUrl>
+		<iconUrl>
+			https://github.com/khulnasoft-labs/tfsecurity/raw/master/tfsecurity.png
+		</iconUrl>
+		<licenseUrl>
+			https://github.com/khulnasoft-labs/tfsecurity/blob/master/LICENSE
+		</licenseUrl>
+		<requireLicenseAcceptance>
+			true
+		</requireLicenseAcceptance>
+		<projectSourceUrl>
+			https://github.com/khulnasoft-labs/tfsecurity
+		</projectSourceUrl>
+		<docsUrl>
+			https://khulnasoft-labs.github.io/tfsecurity
+		</docsUrl>
+		<bugTrackerUrl>
+			https://github.com/khulnasoft-labs/tfsecurity/issues
+		</bugTrackerUrl>
+		<tags>
+			terraform tfsecurity security
+		</tags>
+		<summary>
+			Static analysis powered security scanner for your terraform code
+		</summary>
+		<description>
+			tfsecurity uses static analysis of your terraform templates to spot potential security issues. Now with terraform v0.12+ support.
+		</description>
+		<releaseNotes>
+			https://github.com/khulnasoft-labs/tfsecurity/releases
+		</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
